@@ -5,6 +5,42 @@
     color: #fff;
 }
 
+.stylise-nav-links {
+    font-family: 'Scope One', serif;
+}
+
 .stylise-nav {
     font-family: 'Proza Libre', sans-serif;
+}
+
+/* Bio Section */
+.bio-section {
+    padding: 5%;
+}
+
+.bio-h3 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.bio-p {
+    font-family: 'Proza Libre', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .bio-img {
+        width: 100%;
+    }
+}
+
+/* @media only screen and (min-width: 768px) and (max-width: 866px) {
+    .bio-img {
+      width: 500px;
+      height: 100%;
+    }
+  } */
+
+@media only screen and (min-width: 768px) {
+    .bio-img {
+        width: 50%;
+    }
 }
