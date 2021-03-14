@@ -1,8 +1,12 @@
 /* Title Section */
 .title-h1, .title-h3 {
     font-family: 'Cormorant Garamond', serif;
-    font-weight: 700;
+    font-weight: 900;
     color: #fff;
+}
+
+.title-h3 {
+    font-weight: 700;
 }
 
 .stylise-nav-links {
@@ -18,18 +22,15 @@
     padding: 5%;
 }
 
-.bio-h3 {
+.bio-h2 {
     font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    color: #6C7A65;
 }
 
 .bio-p {
     font-family: 'Proza Libre', sans-serif;
-}
-
-@media only screen and (max-width: 600px) {
-    .bio-img {
-        width: 100%;
-    }
+    line-height: 175%;
 }
 
 /* @media only screen and (min-width: 768px) and (max-width: 866px) {
@@ -41,6 +42,7 @@
 
 @media only screen and (min-width: 768px) {
     .bio-img {
-        width: 50%;
+        width: 75%;
+        margin-left: 90px;
     }
 }
