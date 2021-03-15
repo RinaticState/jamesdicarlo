@@ -19,18 +19,36 @@
 
 /* Bio Section */
 .bio-section {
-    padding: 5%;
+    padding: 3%;
 }
 
-.bio-h2 {
+.bio-h2, .publications-h2 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
     color: #6C7A65;
 }
 
-.bio-p {
+.bio-p, .publications-h6 {
     font-family: 'Proza Libre', sans-serif;
     line-height: 175%;
+}
+
+/* Publications Section */
+.publications-section {
+  padding-bottom: 3%;
+}
+
+.publications-h6 {
+  font-weight: 400;
+  padding-bottom: 1%;
+}
+
+.pubs-title {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.pubs-text {
+  font-family: 'Proza Libre', sans-serif;
 }
 
 @media only screen and (min-width: 768px) {
