@@ -14,7 +14,7 @@
 }
 
 .stylise-nav {
-    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Scope One', sans-serif;
 }
 
 /* Bio Section */
@@ -22,33 +22,53 @@
     padding: 3%;
 }
 
-.bio-h2, .publications-h2 {
+.bio-h2, .publications-h2, .training-h2, .contact-h2 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
     color: #6C7A65;
 }
 
-.bio-p, .publications-h6 {
+.bio-p, .publications-h6, .contact-h6 {
     font-family: 'Proza Libre', sans-serif;
     line-height: 175%;
 }
 
 /* Publications Section */
 .publications-section {
-  padding-bottom: 3%;
+  padding: 0 15% 3%;
 }
 
-.publications-h6 {
+.publications-h6, .contact-h6 {
   font-weight: 400;
   padding-bottom: 1%;
 }
 
-.pubs-title {
+.pubs-title, .training-h4, .training-h5 {
   font-family: 'Cormorant Garamond', serif;
 }
 
 .pubs-text {
   font-family: 'Proza Libre', sans-serif;
+  font-size: 14px;
+}
+
+/* Training Section */
+.training-section {
+    padding: 0 15% 3%;
+}
+
+.training-h2 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.training-h5 {
+    font-weight: 600;
+}
+
+.training-p {
+    font-family: 'Proza Libre', sans-serif;
+    line-height: 175%;
 }
 
 @media only screen and (min-width: 768px) {
