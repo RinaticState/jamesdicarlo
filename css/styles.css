@@ -1,10 +1,10 @@
 /* General Refactoring */
-.title-h1, .title-h3, .bio-h2, .publications-h2, .training-h2, .contact-h2, .pubs-title, .training-h4, .training-h5 {
-  font-family: 'Cormorant Garamond', serif;
+.bio-h2, .publications-h2, .training-h2, .contact-h2, .pubs-title, .training-h4, .training-h5 {
+  font-family: 'Nunito', serif;
 }
 
 .bio-p, .publications-h6, .contact-h6, .pubs-text, .training-p, .txt-form {
-  font-family: 'Proza Libre', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .bio-section, .training-section, .contact-section {
@@ -12,7 +12,7 @@
 }
 
 .bio-h2, .publications-h2, .training-h2, .contact-h2 {
-  font-weight: 600;
+  font-weight: 400;
   color: #6C7A65;
 }
 
@@ -26,6 +26,7 @@
 
 /* Title Section */
 .title-h1, .title-h3 {
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 900;
   color: #fff;
 }
@@ -50,12 +51,12 @@
   padding: 3% 3% 4%;
 }
 
-.publications-h2 {
-  text-align: center;
+.pubs-title {
+  font-weight: 300;
 }
 
-.publications-h6, .contact-h6 {
-  font-weight: 400;
+.publications-h2 {
+  text-align: center;
 }
 
 .pubs-text {
@@ -69,15 +70,21 @@
 }
 
 .training-h5 {
-  font-weight: 600;
+  font-weight: 400;
+}
+
+.training-p {
+  font-size: 18px;
 }
 
 .style-btn {
   padding: 2px 4px 2px 0;
+  font-size: 17px;
 }
 
 .style-btn-thesis {
   padding: 2px;
+  font-size: 17px;
 }
 
 /* Footer Section */
@@ -87,7 +94,7 @@
   padding: 1.5% 15%;
   color: #fff;
   background-color: #6C7A65;
-  font-family: 'Proza Libre', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .footer-link {
