@@ -11,6 +11,7 @@
   <title>James's Site</title>
   <meta name="James E DiCarlo, MD PhD" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="index.ico">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700;900&family=Proza+Libre:wght@400;500;600;700&family=Scope+One&display=swap" rel="stylesheet">
@@ -20,6 +21,8 @@
   <link rel="stylesheet" href="css/styles.css">
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/8110444955.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -69,13 +72,15 @@
     </div>
   </div>
 
+  <hr class="web-dots">
+
   <!-- Publications Section -->
   <div class="publications-section" id="publications">
-    <h2 class="publications-h2" style="text-align:center;">Publications</h2>
-    <h6 class="publications-h6" style="text-align:center;">Please check out my publications. I think they are great and I am not biased. <br><a href="https://scholar.google.com/citations?user=rPc3yK4AAAAJ&hl=en">Click here</a> for a full list of my
+    <h2 class="publications-h2">Publications</h2>
+    <h6 class="publications-h6">Please check out my publications. I think they are great and I am not biased. <br><a href="https://scholar.google.com/citations?user=rPc3yK4AAAAJ&hl=en">Click here</a> for a full list of my
       publications.</h6>
 
-    <div class="container">
+    <div class="container" style="max-width: 992px;">
       <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-4 gx-0 gy-4">
 
         <div class="col">
@@ -251,10 +256,12 @@
     </div>
   </div>
 
+  <hr class="web-dots">
+
   <!-- Training Section -->
   <div class="training-section" id="training">
     <h2 class="training-h2">Training</h2>
-    <div class="card bg-light mb-3">
+    <div class="card bg-light mb-3 mx-auto" style="max-width: 992px;">
       <div class="card-body">
         <h4 class="card-title training-h4">Brigham And Women's Hospital</h4>
         <h5 class="card-subtitle training-h5 mb-2">2019 → Present</h5>
@@ -262,7 +269,7 @@
       </div>
     </div>
 
-    <div class="card bg-light mb-3">
+    <div class="card bg-light mb-3 mx-auto" style="max-width: 992px;">
       <div class="card-body">
         <h4 class="card-title training-h4">Columbia University College Of Physicians & Surgeons</h4>
         <h5 class="card-subtitle training-h5 mb-2">2015 → 2019</h5>
@@ -270,30 +277,36 @@
       </div>
     </div>
 
-    <div class="card bg-light mb-3">
+    <div class="card bg-light mb-3 mx-auto" style="max-width: 992px;">
       <div class="card-body">
         <h4 class="card-title training-h4">Boston University</h4>
         <h5 class="card-subtitle training-h5 mb-2">2010 → 2015</h5>
-        <p class="card-text training-p mx-4">Ph.D., M.S. Biomedical Engineering <br>Thesis: <a href="pdfs/DiCarlo_bu_0017E_11457.pdf" class="btn btn-sm btn-outline-dark">"Engineering Yeast Genomes and Populations"</a><br><a href="http://arep.med.harvard.edu/" class="btn btn-sm btn-outline-primary">Laboratory Of George Church</a></p>
+        <p class="card-text training-p mx-4">Ph.D., M.S. Biomedical Engineering <br>Thesis: <a href="pdfs/DiCarlo_bu_0017E_11457.pdf" class="btn btn-sm btn-outline-dark">"Engineering Yeast Genomes and Populations"</a><br><a
+            href="http://arep.med.harvard.edu/" class="btn btn-sm btn-outline-primary">Laboratory Of George Church</a></p>
       </div>
     </div>
 
-    <div class="card bg-light mb-3">
+    <div class="card bg-light mb-3 mx-auto" style="max-width: 992px;">
       <div class="card-body">
         <h4 class="card-title training-h4">Johns Hopkins University</h4>
         <h5 class="card-subtitle training-h5 mb-2">2006 → 2010</h4>
-        <p class="card-text training-p mx-4">B.S. Chemical And Biomolecular Engineering <br>Projects: <a href="http://syntheticyeast.org/sc2-0/" class="btn btn-sm btn-outline-dark">Synthetic Yeast</a>, <button type="button" class="btn btn-sm btn-outline-secondary" disabled>Genome Evolution</button><br><a href="http://www.med.nyu.edu/research/boeke-lab" class="btn btn-sm btn-outline-primary">Laboratory of Jef Boeke</a></p>
+          <p class="card-text training-p mx-4">B.S. Chemical And Biomolecular Engineering <br>Projects: <a href="http://syntheticyeast.org/sc2-0/" class="btn btn-sm btn-outline-dark">Synthetic Yeast</a>, <button type="button"
+              class="btn btn-sm btn-outline-secondary" disabled>Genome Evolution</button><br><a href="http://www.med.nyu.edu/research/boeke-lab" class="btn btn-sm btn-outline-primary">Laboratory of Jef Boeke</a></p>
       </div>
     </div>
   </div>
+
+  <hr class="web-dots">
 
   <!-- Contact Section -->
   <div class="contact-section" id="contact">
     <h2 class="contact-h2" style="text-align: center;">Contact</h2>
     <h6 class="contact-h6" style="text-align: center;">Like the Jodie Foster movie</h6>
-    <form>
+
+    <!-- Contact Form With Basic Bootstrap Validation -->
+    <form action="mailto:ambersnguyen@gmail.com" class="needs-validation txt-form mx-auto" method="post" enctype="text/plain" novalidate style="max-width: 992px;">
       <div class="form-floating mb-3">
-        <input type="text" class="form-control" id="floatingName" placeholder="Name">
+        <input type="text" class="form-control" id="floatingName" placeholder="Name" required>
         <label for="floatingName">Name</label>
         <div class="valid-feedback">
           Looks good!
@@ -303,7 +316,7 @@
         </div>
       </div>
       <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
         <label for="floatingInput">Email address</label>
         <div class="valid-feedback">
           Looks good!
@@ -312,17 +325,30 @@
           Please enter an email address.
         </div>
       </div>
-      <div class="form-floating">
-        <textarea class="form-control mb-3" placeholder="Leave a message here" id="floatingTextarea" style="height: 100px"></textarea>
+      <div class="form-floating mb-3">
+        <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea" style="height: 100px" required></textarea>
         <label for="floatingTextarea">Message</label>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+        <div class="invalid-feedback">
+          Please enter a message.
+        </div>
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
 
+  <!-- Footer Section -->
+  <div class="footer-section">
+    <h6 class="footer-h6">Copyright 2021</h6>
+    <a href="https://github.com/RinaticState/jamesdicarlo" class="footer-link"><i class="fab fa-github fa-2x"></i></a>
+  </div>
+
+
   <script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (function () {
+    // Javascript for validating email fields
+    (function() {
       'use strict'
 
       // Fetch all the forms we want to apply custom Bootstrap validation styles to
@@ -330,8 +356,8 @@
 
       // Loop over them and prevent submission
       Array.prototype.slice.call(forms)
-        .forEach(function (form) {
-          form.addEventListener('submit', function (event) {
+        .forEach(function(form) {
+          form.addEventListener('submit', function(event) {
             if (!form.checkValidity()) {
               event.preventDefault()
               event.stopPropagation()
