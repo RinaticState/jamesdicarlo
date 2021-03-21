@@ -72,6 +72,14 @@
   font-weight: 600;
 }
 
+.style-btn {
+  padding: 2px 4px 2px 0;
+}
+
+.style-btn-thesis {
+  padding: 2px;
+}
+
 /* Footer Section */
 .footer-section {
   text-align: center;
