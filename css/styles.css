@@ -1,5 +1,5 @@
 /* General Refactoring */
-.bio-h2, .publications-h2, .training-h2, .contact-h2, .pubs-title, .training-h4, .training-h5 {
+.bio-h2, .publications-h2, .training-h2, .contact-h2, .pubs-title, .training-h5, .training-h6 {
   font-family: 'Nunito', serif;
 }
 
@@ -22,6 +22,10 @@
 
 .publications-h6, .contact-h6 {
   padding-bottom: 3%;
+}
+
+.publications-h2, .contact-h2, .contact-h6 {
+  text-align: center;
 }
 
 /* Title Section */
@@ -55,10 +59,6 @@
   font-weight: 300;
 }
 
-.publications-h2 {
-  text-align: center;
-}
-
 .pubs-text {
   font-size: 14px;
 }
@@ -69,12 +69,12 @@
   padding-bottom: 3%;
 }
 
-.training-h5 {
+.training-h6 {
   font-weight: 400;
 }
 
 .training-p {
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .style-btn {
